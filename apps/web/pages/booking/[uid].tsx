@@ -23,9 +23,9 @@ import {
   useIsEmbed,
 } from "@calcom/embed-core/embed-iframe";
 import { getServerSession } from "@calcom/features/auth/lib/getServerSession";
+import { SystemField } from "@calcom/features/bookings/lib/SystemField";
 import { getBookingWithResponses } from "@calcom/features/bookings/lib/get-booking";
 import {
-  SystemField,
   getBookingFieldsWithSystemFields,
   SMS_REMINDER_NUMBER_FIELD,
 } from "@calcom/features/bookings/lib/getBookingFields";
@@ -543,7 +543,12 @@ export default function Success(props: SuccessProps) {
                     <>
                       <hr className="border-subtle" />
                       <CancelBooking
-                        booking={{ uid: bookingInfo?.uid, title: bookingInfo?.title, id: bookingInfo?.id }}
+                        booking={{
+                          uid: bookingInfo?.uid,
+                          title: bookingInfo?.title,
+                          id: bookingInfo?.id,
+                        }}
+                        bookingFields={eventType.bookingFields}
                         profile={{ name: props.profile.name, slug: props.profile.slug }}
                         recurringEvent={eventType.recurringEvent}
                         team={eventType?.team?.name}
