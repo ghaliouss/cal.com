@@ -173,6 +173,22 @@ function Field({
               {...hookForm.register(`${hookFieldNamespace}.label`)}
             />
           </div>
+          <div className="mb-6 w-full">
+            <TextField
+              disabled={!!router}
+              label="Identifier"
+              name="identifier"
+              required
+              placeholder={t("identifies_name_field")}
+              defaultValue={
+                hookForm.watch(`${hookFieldNamespace}.identifier`) ||
+                hookForm.watch(`${hookFieldNamespace}.label`)
+              }
+              onChange={(e) => {
+                hookForm.setValue(`${hookFieldNamespace}.identifier`, e.target.value);
+              }}
+            />
+          </div>
           <div className="mb-6 w-full ">
             <Controller
               name={`${hookFieldNamespace}.type`}
@@ -244,7 +260,7 @@ function Field({
                   StartIcon={Plus}
                   color="secondary"
                   onClick={handleAddOptions}>
-                  Add an attribute
+                  Add an option
                 </Button>
               </div>
             </div>
@@ -365,7 +381,7 @@ const FormEdit = ({
       </div>
     </div>
   ) : (
-    <div className="w-full">
+    <div className="bg-default w-full">
       <EmptyScreen
         Icon={FileText}
         headline="Create your first field"

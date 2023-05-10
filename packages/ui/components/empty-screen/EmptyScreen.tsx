@@ -15,7 +15,6 @@ export function EmptyScreen({
   buttonText,
   buttonOnClick,
   buttonRaw,
-  bgWhite,
   border = true,
 }: {
   Icon?: SVGComponent | IconType;
@@ -25,7 +24,6 @@ export function EmptyScreen({
   buttonText?: string;
   buttonOnClick?: (event: React.MouseEvent<HTMLElement, MouseEvent>) => void;
   buttonRaw?: ReactNode; // Used incase you want to provide your own button.
-  bgWhite?: boolean;
   border?: boolean;
 }) {
   return (
@@ -34,8 +32,7 @@ export function EmptyScreen({
         data-testid="empty-screen"
         className={classNames(
           "min-h-80 flex w-full flex-col items-center justify-center rounded-md p-7 lg:p-20",
-          border && "border-subtle border border-dashed",
-          bgWhite && "bg-white"
+          border && "border-subtle border border-dashed"
         )}>
         {!avatar ? null : (
           <div className="flex h-[72px] w-[72px] items-center justify-center rounded-full">{avatar}</div>

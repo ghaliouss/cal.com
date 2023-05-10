@@ -197,7 +197,6 @@ type LayoutProps = {
   actions?: JSX.Element;
   smallHeading?: boolean;
   hideHeadingOnMobile?: boolean;
-  upButton?: boolean;
 };
 
 const useBrandColors = () => {
@@ -819,7 +818,7 @@ export function ShellMain(props: LayoutProps) {
             }
             StartIcon={ArrowLeft}
             aria-label="Go Back"
-            className={classNames(props.upButton && "mb-5", "rounded-md ltr:mr-2 rtl:ml-2")}
+            className="rounded-md ltr:mr-2 rtl:ml-2"
           />
         )}
         {props.heading && (

@@ -287,7 +287,6 @@ function SingleForm({ form, appUrl, Page }: SingleFormComponentProps) {
         <FormActionsProvider appUrl={appUrl}>
           <Meta title={form.name} description={form.description || ""} />
           <ShellMain
-            upButton={!!form.description?.length}
             heading={form.name}
             subtitle={form.description || ""}
             backPath={`/${appUrl}/forms`}
@@ -297,7 +296,6 @@ function SingleForm({ form, appUrl, Page }: SingleFormComponentProps) {
                 <div className="lg:min-w-72 lg:max-w-72 mb-6 md:mr-6">
                   <TextField
                     type="text"
-                    label="Routing forms"
                     containerClassName="mb-6"
                     placeholder={t("title")}
                     {...hookForm.register("name")}
@@ -380,7 +378,9 @@ function SingleForm({ form, appUrl, Page }: SingleFormComponentProps) {
                       {t("test_preview")}
                     </Button>
                   </div>
-                  {!form.routes && (
+                  {!form.routes?.some(
+                    (r) => ("isFallback" in r && !r.isFallback) || !("isFallback" in r)
+                  ) && (
                     <Alert
                       className="mt-6 !bg-orange-100 font-semibold text-orange-900"
                       iconClassName="!text-orange-900"
