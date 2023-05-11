@@ -45,6 +45,7 @@ import {
 
 import { RoutingPages } from "../lib/RoutingPages";
 import { getSerializableForm } from "../lib/getSerializableForm";
+import { isFallbackRoute } from "../lib/isFallbackRoute";
 import { processRoute } from "../lib/processRoute";
 import type { Response, Route, SerializableForm } from "../types/types";
 import { FormAction, FormActionsDropdown, FormActionsProvider } from "./FormActions";
@@ -378,9 +379,7 @@ function SingleForm({ form, appUrl, Page }: SingleFormComponentProps) {
                       {t("test_preview")}
                     </Button>
                   </div>
-                  {!form.routes?.some(
-                    (r) => ("isFallback" in r && !r.isFallback) || !("isFallback" in r)
-                  ) && (
+                  {form.routes?.every(isFallbackRoute) && (
                     <Alert
                       className="mt-6 !bg-orange-100 font-semibold text-orange-900"
                       iconClassName="!text-orange-900"
