@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import type { EventType } from "@prisma/client";
 import type { Prisma } from "@prisma/client";
 

@@ -102,7 +102,6 @@ export default function Success(props: SuccessProps) {
     allRemainingBookings,
     isSuccessBookingPage,
     cancel: isCancellationMode,
-    changes,
     formerTime,
     email,
     seatReferenceUid,
@@ -222,7 +221,7 @@ export default function Success(props: SuccessProps) {
     setCalculatedDuration(
       dayjs(props.bookingInfo.endTime).diff(dayjs(props.bookingInfo.startTime), "minutes")
     );
-  }, []);
+  }, [props.bookingInfo.endTime, props.bookingInfo.startTime]);
 
   function eventLink(): string {
     const optional: { location?: string } = {};
