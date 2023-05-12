@@ -188,7 +188,6 @@ export const BookEventForm = ({ onCancel }: BookEventFormProps) => {
       );
     },
     onError: () => {
-
       errorRef && errorRef.current?.scrollIntoView({ behavior: "smooth" });
     },
   });

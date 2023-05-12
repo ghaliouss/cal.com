@@ -386,7 +386,7 @@ async function addMultipleFieldsAndSaveForm(
 
   const { optionsInUi: types } = await verifySelectOptions(
     { selector: ".data-testid-field-type", nth: 0 },
-    ["Email", "Long Text", "MultiSelect", "Number", "Phone", "Select", "Short Text"],
+    ["Email", "Long Text", "MultiSelect", "Number", "Phone", "Single selection", "Short Text"],
     page
   );
   await page.fill(`[name="fields.0.label"]`, `${form.label} 1`);
@@ -428,7 +428,7 @@ export async function addOneFieldAndDescriptionAndSaveForm(
   // Verify all Options of SelectBox
   const { optionsInUi: types } = await verifySelectOptions(
     { selector: ".data-testid-field-type", nth: 0 },
-    ["Email", "Long Text", "MultiSelect", "Number", "Phone", "Select", "Short Text"],
+    ["Email", "Long Text", "MultiSelect", "Number", "Phone", "Single selection", "Short Text"],
     page
   );
 
