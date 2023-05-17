@@ -1679,7 +1679,6 @@
   "modifications_in_fields_warning": "Aşağıdaki formların alan ve yönlendirme seçeneklerindeki değişiklikler bu forma yansıtılacak.",
   "connected_forms": "Bağlı Formlar",
   "form_modifications_warning": "Buradaki alanları veya yönlendirmeleri değiştirdiğinizde aşağıdaki formlar etkilenir.",
-  "responses_collection_waiting_description": "Yanıtların toplanması için bir süre bekleyin. Adrese giderek formu kendiniz de gönderebilirsiniz.",
   "this_is_what_your_users_would_see": "Kullanıcılarınızın göreceği şey bu",
   "identifies_name_field": "Alanı bu ada göre tanımlar.",
   "add_1_option_per_line": "Satır başına 1 seçenek ekle",

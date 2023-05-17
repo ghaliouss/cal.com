@@ -1679,7 +1679,6 @@
   "modifications_in_fields_warning": "以下のフォームのフィールドとルートへの変更は、このフォームに反映されます。",
   "connected_forms": "接続されているフォーム",
   "form_modifications_warning": "ここでフィールドまたはルートを変更すると、以下のフォームが影響を受けます。",
-  "responses_collection_waiting_description": "回答が収集されるまで、しばらくお待ちください。自分自身でフォームを送信することもできます。",
   "this_is_what_your_users_would_see": "これがユーザーに表示される内容です",
   "identifies_name_field": "この名前でフィールドを識別します。",
   "add_1_option_per_line": "1 行に 1 つのオプションを追加する",

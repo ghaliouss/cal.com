@@ -1679,7 +1679,6 @@
   "modifications_in_fields_warning": "Izmene u poljima i putanjama sledećih formulara će se prikazati u ovom formularu.",
   "connected_forms": "Povezani formulari",
   "form_modifications_warning": "Na sledeće formulare će uticati kada ovde izmenite polja ili usmeravanja.",
-  "responses_collection_waiting_description": "Sačekajte neko vreme da odgovori budu prikupljeni. Možete i sami poslati formular.",
   "this_is_what_your_users_would_see": "Ovo će videti vaši korisnici",
   "identifies_name_field": "Identifikuje polje ovim imenom.",
   "add_1_option_per_line": "Dodajte 1 opciju za svaku liniju",

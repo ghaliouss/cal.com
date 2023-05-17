@@ -1627,7 +1627,6 @@
   "modifications_in_fields_warning": "שינויים בשדות וניתובים של הטפסים הבאים ישפיעו על טופס זה.",
   "connected_forms": "טפסים מחוברים",
   "form_modifications_warning": "הטפסים הבאים יושפעו כשאתה משנה שדות או ניתובים כאן.",
-  "responses_collection_waiting_description": "חכה זמן מה עד לאיסוף תגובות. אתה גם יכול ללכת ולשלוח טופס בעצמך.",
   "this_is_what_your_users_would_see": "זה מה שהמשתמשים שלך היו רואים",
   "identifies_name_field": "מזהה שדה לפי שם זה.",
   "add_1_option_per_line": "הוסף אפשרות 1 לכל שורה",

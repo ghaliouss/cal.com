@@ -1679,7 +1679,6 @@
   "modifications_in_fields_warning": "Изменения в полях и маршрутах форм, перечисленных ниже, будут отражены в этой форме.",
   "connected_forms": "Связанные формы",
   "form_modifications_warning": "Изменение этих полей или маршрутов повлияет на следующие формы.",
-  "responses_collection_waiting_description": "На сбор ответов потребуется некоторое время. Вы также можете отправить форму самостоятельно.",
   "this_is_what_your_users_would_see": "Это будут видеть ваши пользователи",
   "identifies_name_field": "Идентифицирует поле по этому имени.",
   "add_1_option_per_line": "1 вариант на строку",

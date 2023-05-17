@@ -1604,7 +1604,6 @@
   "modifications_in_fields_warning": "Ændringer i felter og ruter af følgende formularer vil blive afspejlet i denne form.",
   "connected_forms": "Tilsluttede Formularer",
   "form_modifications_warning": "Følgende formularer vil blive påvirket, når du ændrer felter eller ruter her.",
-  "responses_collection_waiting_description": "Vent et stykke tid på, at svarene indsamles. Du kan også selv indsende formularen.",
   "this_is_what_your_users_would_see": "Dette er, hvad dine brugere ville se",
   "identifies_name_field": "Identificerer feltet med dette navn.",
   "add_1_option_per_line": "Tilføj 1 mulighed pr. linje",

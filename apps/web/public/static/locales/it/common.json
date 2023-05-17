@@ -1679,7 +1679,6 @@
   "modifications_in_fields_warning": "Le eventuali modifiche apportate ai campi e ai percorsi dei seguenti moduli si rifletteranno in questo modulo.",
   "connected_forms": "Moduli connessi",
   "form_modifications_warning": "Le modifiche qui apportate a campi e percorsi si rifletteranno nei seguenti moduli.",
-  "responses_collection_waiting_description": "Attendere che vengano raccolte alcune risposte. È possibile anche compilare e inviare il modulo personalmente.",
   "this_is_what_your_users_would_see": "Ecco cosa vedranno gli utenti",
   "identifies_name_field": "Identifica il campo con questo nome.",
   "add_1_option_per_line": "Aggiungi 1 opzione per riga",

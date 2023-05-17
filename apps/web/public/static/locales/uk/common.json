@@ -1679,7 +1679,6 @@
   "modifications_in_fields_warning": "Зміни в полях і переспрямуваннях нижчезазначених форм будуть відображені в цій формі.",
   "connected_forms": "Підключені форми",
   "form_modifications_warning": "Зміни цих полів або переспрямувань вплинуть на наведені нижче форми.",
-  "responses_collection_waiting_description": "Зачекайте, поки надійдуть усі відповіді. Ви також можете надіслати форму самостійно.",
   "this_is_what_your_users_would_see": "Це побачать користувачі",
   "identifies_name_field": "Визначає поле за назвою.",
   "add_1_option_per_line": "Додати 1 варіант на рядок",

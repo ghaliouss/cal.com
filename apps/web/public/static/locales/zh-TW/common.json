@@ -1679,7 +1679,6 @@
   "modifications_in_fields_warning": "欄位與以下表單的引導路由如有任何修改之處，也會反映在此表單中。",
   "connected_forms": "連結的表單",
   "form_modifications_warning": "您在此處修改欄位或引導路由時，以下表單也會受到影響。",
-  "responses_collection_waiting_description": "請稍等系統回收答覆。您也可以自行提交表單。",
   "this_is_what_your_users_would_see": "這是您的使用者會看到的內容",
   "identifies_name_field": "按照此名稱辨識欄位。",
   "add_1_option_per_line": "每行新增 1 個選項",

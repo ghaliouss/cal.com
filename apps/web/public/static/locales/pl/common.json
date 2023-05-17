@@ -1679,7 +1679,6 @@
   "modifications_in_fields_warning": "Zmiany w polach i przekierowaniach następujących formularzy zostaną odzwierciedlone w tym formularzu.",
   "connected_forms": "Połączone formularze",
   "form_modifications_warning": "Dokonane tutaj zmiany w polach i przekierowaniach będą miały wpływ na następujące formularze.",
-  "responses_collection_waiting_description": "Zaczekaj na zebranie odpowiedzi. Możesz też przesłać formularz samodzielnie.",
   "this_is_what_your_users_would_see": "To zobaczą Twoi użytkownicy.",
   "identifies_name_field": "Identyfikuje pole za pomocą tej nazwy.",
   "add_1_option_per_line": "Dodaj 1 opcję w każdym wierszu",

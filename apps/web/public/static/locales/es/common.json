@@ -1679,7 +1679,6 @@
   "modifications_in_fields_warning": "Las modificaciones en los campos y rutas de los siguientes formularios se reflejarán en este formulario.",
   "connected_forms": "Formularios conectados",
   "form_modifications_warning": "Los siguientes formularios se verían afectados cuando modifique campos o rutas aquí.",
-  "responses_collection_waiting_description": "Espere un tiempo para que se recopilen las respuestas. También puede proceder y enviar el formulario usted mismo.",
   "this_is_what_your_users_would_see": "Esto es lo que verían sus usuarios",
   "identifies_name_field": "Identifique el campo con este nombre.",
   "add_1_option_per_line": "Agregue 1 opción por línea",

@@ -1682,7 +1682,6 @@
   "modifications_in_fields_warning": "对以下表格中字段和途径的修改将反映在此表格中。",
   "connected_forms": "连接的表格",
   "form_modifications_warning": "在此处修改字段或途径时，以下表格将受到影响。",
-  "responses_collection_waiting_description": "等待一段时间以收集回复。您也可以自行提交表格。",
   "this_is_what_your_users_would_see": "这是您的用户将看到的内容",
   "identifies_name_field": "按此名称标识字段。",
   "add_1_option_per_line": "每行添加 1 个选项",

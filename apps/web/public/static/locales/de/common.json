@@ -1679,7 +1679,6 @@
   "modifications_in_fields_warning": "Änderungen in den Feldern und Weiterleitungen der folgenden Formulare werden in diesem Formular reflektiert.",
   "connected_forms": "Verbundene Formulare",
   "form_modifications_warning": "Folgende Formulare wären betroffen, wenn Sie hier Felder oder Weiterleitungen ändern.",
-  "responses_collection_waiting_description": "Warten Sie einige Zeit, bis Antworten gesammelt werden. Sie können das Formular auch selbst ausfüllen.",
   "this_is_what_your_users_would_see": "Dies ist, was Ihre Benutzer sehen würden",
   "identifies_name_field": "Identifiziert Feld mit diesem Namen.",
   "add_1_option_per_line": "1 Option pro Zeile hinzufügen",

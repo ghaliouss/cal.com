@@ -1679,7 +1679,6 @@
   "modifications_in_fields_warning": "ستنعكس التعديلات في الحقول والمسارات للنماذج التالية في هذا النموذج.",
   "connected_forms": "النماذج المتصلة",
   "form_modifications_warning": "ستتأثر النماذج التالية عند تعديل الحقول أو المسارات هنا.",
-  "responses_collection_waiting_description": "انتظر بعض الوقت حتى يتم جمع الردود. يمكنك إرسال النموذج بنفسك أيضًا.",
   "this_is_what_your_users_would_see": "هذا ما سيراه المستخدمون لديك",
   "identifies_name_field": "يتعرف على الحقل بهذا الاسم.",
   "add_1_option_per_line": "إضافة خيار واحد لكل سطر",

@@ -1679,7 +1679,6 @@
   "modifications_in_fields_warning": "Khi sửa đổi trong các trường và định hướng của những biểu mẫu sau thì những thay đổi đó sẽ được thể hiện trong biểu mẫu này.",
   "connected_forms": "Biểu mẫu đã kết nối",
   "form_modifications_warning": "Các biểu mẫu sau sẽ chịu tác động khi bạn sửa các trường hay định hướng tại đây.",
-  "responses_collection_waiting_description": "Chờ một chút để các hồi đáp được thu thập. Bạn cũng có thể tự gửi biểu mẫu.",
   "this_is_what_your_users_would_see": "Đây là cái mà người dùng của bạn sẽ thấy",
   "identifies_name_field": "Xác định trường theo tên này.",
   "add_1_option_per_line": "Thêm 1 tuỳ chọn cho mỗi hàng",

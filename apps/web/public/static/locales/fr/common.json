@@ -1687,7 +1687,6 @@
   "modifications_in_fields_warning": "Les modifications dans les champs et les routes des formulaires suivants seront répercutées dans ce formulaire.",
   "connected_forms": "Formulaires connectés",
   "form_modifications_warning": "Les formulaires suivants seraient affectés lorsque vous modifieriez des champs ou des routes ici.",
-  "responses_collection_waiting_description": "Attendez un certain temps que les réponses soient collectées. Vous pouvez également envoyer le formulaire vous-même.",
   "this_is_what_your_users_would_see": "Voici ce que vos utilisateurs verraient",
   "identifies_name_field": "Identifie le champ par ce nom.",
   "add_1_option_per_line": "Ajouter une option par ligne",
